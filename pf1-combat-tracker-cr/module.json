@@ -3,7 +3,7 @@
   "title": "PF1e CR in Combat Tracker",
   "description": "Adds a CR field to the combat tracker",
 
-  "version": "0.0.1",
+  "version": "0.0.2",
 
   "authors": [
     {
@@ -13,8 +13,8 @@
     }
   ],
 
-  "esmodules": ["pf1-combat-tracker-cr.mjs"],
-  "styles": ["pf1-combat-tracker-cr.css"],
+  "esmodules": ["main.mjs"],
+  "styles": ["styles.css"],
 
   "languages": [
     {

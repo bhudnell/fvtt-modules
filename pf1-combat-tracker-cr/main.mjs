@@ -24,5 +24,10 @@ Hooks.on("renderCombatTracker", async (app, html, data) => {
   }
 
   const header = html.find(".combat-tracker-header");
-  header.append(`<div class="flexrow"><span>Approx. CR: ${approxCr}</span><span>APL: ${apl}</span></div>`);
+  header.append(`
+    <div class="flexrow">
+      <span>${game.i18n.localize("CombatTrackerCr.ApproxCR")}: ${approxCr}</span>
+      <span>${game.i18n.localize("CombatTrackerCr.APL")}: ${apl}</span>
+    </div>
+  `);
 });

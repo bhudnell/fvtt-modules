@@ -1,8 +1,6 @@
 {
-  "DelayMarker": {
-    "Delay": "Delay Turn",
-    "Undelay": "Undelay Turn",
-    "ResumeNow": "Resume Now!",
-    "ResumeAfter": "Resume After"
+  "CombatTrackerCr": {
+    "ApproxCR": "Approx. CR",
+    "APL": "APL"
   }
 }
