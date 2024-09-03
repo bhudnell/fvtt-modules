@@ -43,10 +43,9 @@
   },
 
   "license": "LICENSE",
-  "manifest": "https://github.com/bhudnell/fvtt-modules/-/raw/master/pf1-combat-tracker-cr/module.json",
-  "download": "https://github.com/bhudnell/fvtt-modules/-/raw/master/pf1-combat-tracker-cr/pf1-combat-tracker-cr.zip",
-  "url": "https://github.com/bhudnell/fvtt-modules/-/tree/master/pf1-combat-tracker-cr",
-  "readme": "https://github.com/bhudnell/fvtt-modules/-/raw/master/pf1-combat-tracker-cr/README.md",
-  "bugs": "https://github.com/bhudnell/fvtt-modules/issues",
-  "changelog": "https://github.com/bhudnell/foundryvtt-pf1-kingdom-sheet/blob/main/CHANGELOG.md"
+  "manifest": "https://github.com/bhudnell/fvtt-modules/blob/main/pf1-combat-tracker-cr/module.json",
+  "download": "https://github.com/bhudnell/fvtt-modules/blob/main/pf1-combat-tracker-cr/pf1-combat-tracker-cr.zip",
+  "url": "https://github.com/bhudnell/fvtt-modules/tree/main/pf1-combat-tracker-cr",
+  "readme": "https://github.com/bhudnell/fvtt-modules/blob/main/pf1-combat-tracker-cr/README.md",
+  "bugs": "https://github.com/bhudnell/fvtt-modules/issues"
 }
