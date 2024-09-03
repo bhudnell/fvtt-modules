@@ -1,0 +1,52 @@
+{
+  "id": "pf1-combat-tracker-cr",
+  "title": "PF1e CR in Combat Tracker",
+  "description": "Adds a CR field to the combat tracker",
+
+  "version": "0.0.1",
+
+  "authors": [
+    {
+      "name": "Tubbz",
+      "url": "https://github.com/bhudnell",
+      "discord": "_tubbz"
+    }
+  ],
+
+  "esmodules": ["pf1-combat-tracker-cr.mjs"],
+  "styles": ["pf1-combat-tracker-cr.css"],
+
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315",
+    "maximum": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {
+          "minimum": "10",
+          "verified": "10.4"
+        }
+      }
+    ]
+  },
+
+  "license": "LICENSE",
+  "manifest": "https://github.com/bhudnell/fvtt-modules/-/raw/master/pf1-combat-tracker-cr/module.json",
+  "download": "https://github.com/bhudnell/fvtt-modules/-/raw/master/pf1-combat-tracker-cr/pf1-combat-tracker-cr.zip",
+  "url": "https://github.com/bhudnell/fvtt-modules/-/tree/master/pf1-combat-tracker-cr",
+  "readme": "https://github.com/bhudnell/fvtt-modules/-/raw/master/pf1-combat-tracker-cr/README.md",
+  "bugs": "https://github.com/bhudnell/fvtt-modules/issues",
+  "changelog": "https://github.com/bhudnell/foundryvtt-pf1-kingdom-sheet/blob/main/CHANGELOG.md"
+}

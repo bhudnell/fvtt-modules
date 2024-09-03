@@ -1,0 +1,8 @@
+{
+  "DelayMarker": {
+    "Delay": "Delay Turn",
+    "Undelay": "Undelay Turn",
+    "ResumeNow": "Resume Now!",
+    "ResumeAfter": "Resume After"
+  }
+}
