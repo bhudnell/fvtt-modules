@@ -1,6 +1,18 @@
 {
   "CombatTrackerCr": {
-    "ApproxCR": "Approx. CR",
-    "APL": "APL"
+    "CR": "CR",
+    "APL": "APL",
+    "Difficulty": {
+      "Trivial": "Trivial",
+      "Easy": "Easy",
+      "Average": "Average",
+      "Challenging": "Challenging",
+      "Hard": "Hard",
+      "Epic": "Epic"
+    },
+    "Settings": {
+      "SecretAsHostile": "Secret Disposition is Hostile",
+      "SecretAsHostileHint": " Actors with the 'Secret' disposition will be count towards CR calculation"
+    }
   }
 }
