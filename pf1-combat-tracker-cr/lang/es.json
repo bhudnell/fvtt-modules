@@ -1,1 +1,18 @@
-{}
+{
+    "CombatTrackerCr": {
+        "Difficulty": {
+            "Trivial": "Trivial",
+            "Hard": "Difícil",
+            "Challenging": "Desafiante",
+            "Epic": "Épico",
+            "Average": "Intermedio",
+            "Easy": "Fácil"
+        },
+        "Settings": {
+            "SecretAsHostileHint": " - Los actores con la disposición 'Desconocido' serán contados para el cálculo de la VD",
+            "SecretAsHostile": "La disposición Desconocido cuenta como Hostil"
+        },
+        "APL": "NMG",
+        "CR": "VD"
+    }
+}
