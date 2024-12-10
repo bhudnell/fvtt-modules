@@ -8,6 +8,8 @@ APL is calculated from PC actors with the "Friendly" disposition
 
 Difficulty is defined by table 12-1 [here](https://aonprd.com/Rules.aspx?ID=252) with Trivial added as APL-2
 
+## Manifest: https://raw.githubusercontent.com/bhudnell/fvtt-modules/main/pf1-combat-tracker-cr/module.json
+
 ## Known Issues
 
 - CRs of less than 1 will show as 0 instad of 1/2, 1/3, 1/4, etc
