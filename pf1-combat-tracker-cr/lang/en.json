@@ -10,6 +10,7 @@
       "Hard": "Hard",
       "Epic": "Epic"
     },
+    "Tooltip": "Total XP: {value}",
     "Settings": {
       "SecretAsHostile": "Secret Disposition is Hostile",
       "SecretAsHostileHint": " Actors with the 'Secret' disposition will be count towards CR calculation"

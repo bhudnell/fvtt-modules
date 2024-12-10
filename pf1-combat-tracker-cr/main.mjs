@@ -76,10 +76,12 @@ Hooks.on("renderCombatTracker", async (app, html, data) => {
   const difficultyIdx = Math.clamped(approxCr - apl + 2, 0, 5);
   const difficulty = difficulties[difficultyIdx];
 
+  const tooltip = game.i18n.format("CombatTrackerCr.Tooltip", { value: xpTotal });
+
   const header = html.find(".combat-tracker-header");
   if (game.user.isGM) {
     header.append(`
-    <div class="flexrow">
+    <div class="flexrow" data-tooltip="${tooltip}">
       <span>${game.i18n.localize("CombatTrackerCr.CR")}: ${approxCr}</span>
       <span>${game.i18n.localize("CombatTrackerCr.APL")}: ${apl}</span>
       <span style="border-radius: 4px;${difficulty.style}">${game.i18n.localize(difficulty.label)}</span>
