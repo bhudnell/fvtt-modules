@@ -6,7 +6,7 @@ There is a setting to include actors with the "Secret" disposition
 
 APL is calculated from PC actors with the "Friendly" disposition
 
-Difficulty is defined by table 12-1 [here](https://aonprd.com/Rules.aspx?ID=252) with Trivila added as APL-2
+Difficulty is defined by table 12-1 [here](https://aonprd.com/Rules.aspx?ID=252) with Trivial added as APL-2
 
 ## Known Issues
 
