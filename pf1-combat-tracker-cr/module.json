@@ -3,7 +3,7 @@
   "title": "PF1e CR in Combat Tracker",
   "description": "Adds a CR field to the combat tracker",
 
-  "version": "0.2.0",
+  "version": "1.0",
 
   "authors": [
     {
@@ -30,9 +30,9 @@
   ],
 
   "compatibility": {
-    "minimum": "11",
-    "verified": "11.315",
-    "maximum": "11"
+    "minimum": "12",
+    "verified": "12.331",
+    "maximum": "12"
   },
   "relationships": {
     "systems": [
@@ -40,8 +40,8 @@
         "id": "pf1",
         "type": "system",
         "compatibility": {
-          "minimum": "10",
-          "verified": "10.4"
+          "minimum": "11",
+          "verified": "11.3"
         }
       }
     ]

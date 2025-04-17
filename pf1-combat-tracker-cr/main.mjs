@@ -53,7 +53,7 @@ Hooks.on("renderCombatTracker", async (app, html, data) => {
   const pcLevels = [];
   for (const combatant of data.combat.combatants) {
     if (actorTypesWithCR.includes(combatant.actor.type) && enemyDispositions.includes(combatant.token.disposition)) {
-      xpTotal += combatant.actor.getCRExp(combatant.actor.system.details.cr.total);
+      xpTotal += pf1.utils.CR.getXP(combatant.actor.system.details?.cr.total ?? combatant.actor.system.cr.total);
     } else if (combatant.actor.type === "character" && allyDispositions.includes(combatant.token.disposition)) {
       pcLevels.push(combatant.actor.system.attributes.hd.total);
     }
@@ -73,7 +73,7 @@ Hooks.on("renderCombatTracker", async (app, html, data) => {
     }
   }
 
-  const difficultyIdx = Math.clamped(approxCr - apl + 2, 0, 5);
+  const difficultyIdx = Math.clamp(approxCr - apl + 2, 0, 5);
   const difficulty = difficulties[difficultyIdx];
 
   const tooltip = game.i18n.format("CombatTrackerCr.Tooltip", { value: xpTotal });
