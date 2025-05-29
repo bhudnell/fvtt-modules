@@ -1,16 +1,7 @@
-# PF1e CR in Combat Tracker
-Calculates the approximate CR, APL, and difficulty for actors in the combat encounter
+# PF1e Item Piles
+An implementation of pf1 item piles that accounts for trade goods and treasure selling at full price
 
-Approximate CR is calculated from NPC, Trap, and Haunt actors with the "Hostile" disposition.
-There is a setting to include actors with the "Secret" disposition
+## Note
+This will only work if buy price is set to 100% and sell price is set to 50%
 
-APL is calculated from PC actors with the "Friendly" disposition
-
-Difficulty is defined by table 12-1 [here](https://aonprd.com/Rules.aspx?ID=252) with Trivial added as APL-2
-
-## Manifest: https://raw.githubusercontent.com/bhudnell/fvtt-modules/main/pf1-combat-tracker-cr/module.json
-
-## Known Issues
-
-- CRs of less than 1 will show as 0 instad of 1/2, 1/3, 1/4, etc
-- Changing the token disposition after adding it to the encounter won't update the CR or APL, re-add the token to update
+## Manifest: https://raw.githubusercontent.com/bhudnell/fvtt-modules/main/pf1-item-piles-tubbz/module.json
