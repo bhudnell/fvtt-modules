@@ -1,0 +1,52 @@
+{
+  "id": "pf1-item-piles-tubbz",
+  "title": "PF1e Item Piles",
+  "description": "PF1e integration with item piles module",
+
+  "version": "1.0",
+
+  "authors": [
+    {
+      "name": "Tubbz",
+      "url": "https://github.com/bhudnell",
+      "discord": "_tubbz"
+    }
+  ],
+
+  "esmodules": ["main.mjs"],
+
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.343",
+    "maximum": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {
+          "minimum": "11",
+          "verified": "11.6"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "item-piles",
+        "type": "module",
+        "compatibility": {
+          "minimum": "3.2.7",
+          "verified": "3.2.8"
+        }
+      }
+    ]
+  },
+
+  "license": "LICENSE",
+  "manifest": "https://raw.githubusercontent.com/bhudnell/fvtt-modules/main/pf1-item-piles/module.json",
+  "download": "https://github.com/bhudnell/fvtt-modules/raw/main/pf1-item-piles/pf1-item-piles.zip",
+  "url": "https://github.com/bhudnell/fvtt-modules/tree/main/pf1-item-piles",
+  "readme": "https://github.com/bhudnell/fvtt-modules/blob/main/pf1-item-piles/README.md",
+  "bugs": "https://github.com/bhudnell/fvtt-modules/issues"
+}
