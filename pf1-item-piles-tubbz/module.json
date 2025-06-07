@@ -44,9 +44,9 @@
   },
 
   "license": "LICENSE",
-  "manifest": "https://raw.githubusercontent.com/bhudnell/fvtt-modules/main/pf1-item-piles/module.json",
-  "download": "https://github.com/bhudnell/fvtt-modules/raw/main/pf1-item-piles/pf1-item-piles.zip",
-  "url": "https://github.com/bhudnell/fvtt-modules/tree/main/pf1-item-piles",
-  "readme": "https://github.com/bhudnell/fvtt-modules/blob/main/pf1-item-piles/README.md",
+  "manifest": "https://raw.githubusercontent.com/bhudnell/fvtt-modules/main/pf1-item-piles-tubbz/module.json",
+  "download": "https://github.com/bhudnell/fvtt-modules/raw/main/pf1-item-piles-tubbz/pf1-item-piles-tubbz.zip",
+  "url": "https://github.com/bhudnell/fvtt-modules/tree/main/pf1-item-piles-tubbz",
+  "readme": "https://github.com/bhudnell/fvtt-modules/blob/main/pf1-item-piles-tubbz/README.md",
   "bugs": "https://github.com/bhudnell/fvtt-modules/issues"
 }
