@@ -80,15 +80,17 @@ Hooks.on("renderCombatTracker", async (app, html, data) => {
 
   const tooltip = game.i18n.format("CombatTrackerCr.Tooltip", { value: xpTotal });
 
-  const header = html.find(".combat-tracker-header");
+  const header = html.querySelector?.(".combat-tracker-header") ?? html.find(".combat-tracker-header")[0];
+
   if (game.user.isGM) {
-    header.append(`
-    <div class="flexrow" data-tooltip="${tooltip}">
-      <span>${game.i18n.localize("CombatTrackerCr.CR")}: ${approxCr}</span>
-      <span>${game.i18n.localize("CombatTrackerCr.APL")}: ${apl}</span>
-      <span style="border-radius: 4px;${difficulty.style}">${game.i18n.localize(difficulty.label)}</span>
-    </div>
-  `);
+    const content = `
+      <div class="flexrow" data-tooltip="${tooltip}" style="text-align: center;color: var(--color-text-secondary)">
+        <span>${game.i18n.localize("CombatTrackerCr.CR")}: ${approxCr}</span>
+        <span>${game.i18n.localize("CombatTrackerCr.APL")}: ${apl}</span>
+        <span style="border-radius: 4px;${difficulty.style}">${game.i18n.localize(difficulty.label)}</span>
+      </div>`;
+
+    header.insertAdjacentHTML("beforeend", content);
   }
 });
 

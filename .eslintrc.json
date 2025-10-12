@@ -34,26 +34,9 @@
   },
   "globals": {
     "foundry": "readonly",
-    "ui": "readonly",
     "game": "readonly",
-    "CONFIG": "readonly",
     "CONST": "readonly",
-    "Collection": "readonly",
     "Hooks": "readonly",
-    "fromUuid": "readonly",
-    "renderTemplate": "readonly",
-    "loadTemplates": "readonly",
-    "Actors": "readonly",
-    "Items": "readonly",
-    "Actor": "readonly",
-    "ActorSheet": "readonly",
-    "Item": "readonly",
-    "ItemSheet": "readonly",
-    "TextEditor": "readonly",
-    "Dialog": "readonly",
-    "ChatMessage": "readonly",
-    "JournalEntryPage": "readonly",
-    "pf1": "readonly",
-    "$": "readonly"
+    "pf1": "readonly"
   }
 }
