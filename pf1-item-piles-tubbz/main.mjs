@@ -101,7 +101,7 @@ Hooks.once("item-piles-ready", async () => {
 Hooks.on("item-piles-preOpenInterface", async (merchant, recipient) => {
   await updateItemPriceModifiers(merchant);
   if (recipient) {
-    await updateItemPriceModifiers(merchant);
+    await updateItemPriceModifiers(recipient);
   }
 });
 
