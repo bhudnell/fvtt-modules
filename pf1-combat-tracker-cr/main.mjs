@@ -52,6 +52,11 @@ Hooks.on("renderCombatTracker", async (app, html, data) => {
   let xpTotal = 0;
   const pcLevels = [];
   for (const combatant of data.combat.combatants) {
+    if (!combatant.actor || !combatant.token) {
+      console.error(`Combatant "${combatant.name}" does not have an actor/token associated with it.`);
+      console.error(combatant);
+      continue;
+    }
     if (actorTypesWithCR.includes(combatant.actor.type) && enemyDispositions.includes(combatant.token.disposition)) {
       xpTotal += (typeof pf1.utils.CR.getXP === "function" ? pf1.utils.CR.getXP : combatant.actor.getCRExp)(
         combatant.actor.system.details?.cr.total ?? combatant.actor.system.cr.total
